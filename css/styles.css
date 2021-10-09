@@ -1,0 +1,30 @@
+#root{
+    display: flex;
+}
+
+.left_div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: bisque;
+    padding: 10px;
+  }
+  .right_div {
+    display: block;
+    width: 60%;
+    background-color: coral;
+    padding: 10px;
+  }
+  .books_items {
+      display: flex;
+      align-items: center;
+  }
+  .button_delete{
+      margin-left: auto;
+      margin-right: 10px;
+      
+  }
+  .button_edit{
+    margin-right: 10px;
+   
+}
