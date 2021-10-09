@@ -182,7 +182,7 @@ function renderPreview(event){
 	return `
 	<div>
         <h2>${title}</h2>
-        <p">${author}</p>
+        <p>${author}</p>
         <img src=${img} alt=${title}>
 		<p>${plot}</p>
     </div>` 
